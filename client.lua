@@ -133,7 +133,7 @@ RegisterNetEvent('qb-djbooth:client:changeVolume', function(data)
 		-- Don't let numbers go too high or too low
 		if dialog.volume <= 0.01 then dialog.volume = 0.01 end
 		if dialog.volume > 1.0 then dialog.volume = 1.0 end
-		TriggerEvent("QBCore:Notify", Loc[Config.Lan].notify["load_link"]..math.ceil(dialog.volume * 100).."%", "success")
+		TriggerEvent("QBCore:Notify", Loc[Config.Lan].notify["new_volume"]..math.ceil(dialog.volume * 100).."%", "success")
         TriggerServerEvent('qb-djbooth:server:changeVolume', dialog.volume, data.zoneNum)
     end
 end)
