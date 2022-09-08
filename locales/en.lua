@@ -2,6 +2,7 @@ Loc["en"] = {
     notify = {
         ["load_link"] = "Loading link: ",
         ["set_audio"] = "Setting booth audio to: ",
+        ["new_volume"] = "Volume: ",
     },
     target = {
         ["dj_booth"] = "DJ Booth",
