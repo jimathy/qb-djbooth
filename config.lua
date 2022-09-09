@@ -58,14 +58,6 @@ Config = {
 			coords = vector3(983.14, -133.17, 79.59),
 			soundLoc = vector3(988.79, -131.62, 78.89), -- Add sound origin location if you don't want the music to play from the dj booth
 		},
-		{ -- Gabz Arcade Bar
-			job = "public", -- Set this to required job role
-			enableBooth = true, -- option to disable rather than deleting code
-			DefaultVolume = 0.1, -- 0.01 is lowest, 1.0 is max
-			radius = 30, -- The radius of the sound from the booth
-			coords = vector3(-1648.7, -1062.2, 12.35), -- Where the booth is located
-			soundLoc = vector3(-1656.79, -1064.12, 14.55),
-		},
 	},
 }
 
